@@ -1,6 +1,6 @@
 open! Core
 open! Import
-module Bonsai = Bonsai.Proc
+module Bonsai = Bonsai_proc
 
 let render_svg_icon ?(attrs = [ Attr.empty ]) svg_icon =
   Bonsai.const

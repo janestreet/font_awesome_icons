@@ -1,6 +1,6 @@
 (library
  (name font_awesome_icons_test)
- (libraries bonsai bonsai_web bonsai_web_test core)
+ (libraries bonsai bonsai.proc bonsai_web bonsai_web_test core)
  (preprocess
   (pps ppx_tailwind ppx_expect)))
 
