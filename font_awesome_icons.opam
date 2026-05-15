@@ -19,7 +19,7 @@ depends: [
   "ppx_jane"
   "dune"       {>= "3.17.0"}
 ]
-available: arch != "arm32" & arch != "x86_32"
+available: arch != "x86_32"
 synopsis: "An OCaml library for Font-Awesome SVG icons"
 description: "
 This library contains the free brands, regular and solid SVG icons from Font-Awesome. Compatible for use with bonsai apps.
