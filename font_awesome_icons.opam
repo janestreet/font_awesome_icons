@@ -20,6 +20,9 @@ depends: [
   "dune"       {>= "3.17.0"}
 ]
 available: arch != "x86_32"
+conflicts: [
+  "oxcaml-compiler" {< "5.2.0minus39"}
+]
 synopsis: "An OCaml library for Font-Awesome SVG icons"
 description: "
 This library contains the free brands, regular and solid SVG icons from Font-Awesome. Compatible for use with bonsai apps.
